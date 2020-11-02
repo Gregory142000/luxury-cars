@@ -1,12 +1,24 @@
 import React from "react"
+import { BrowserRouter, Switch, Route } from "react-router-dom"
 
-class App extends React.Component{
+import Home from "../pages/Home"
+import Gallery from "../pages/Gallery"
+import Contact from "../pages/Contact"
+import Team from "../pages/Team"
 
-    render(){
+function App(){
 
-        return <h1>Ahora soy App</h1>
+    return(
 
-    }
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/gallery" component={Gallery} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/Team" component={Team} /> 
+            </Switch>
+        </BrowserRouter>
+    )
 
 }
 
