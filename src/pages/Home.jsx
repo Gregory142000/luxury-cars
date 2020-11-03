@@ -1,10 +1,17 @@
-import React from "react"
+import React, { Fragment } from "react"
+
+import CoverPage from "../components/comps_Home/CoverPage"
 
 class Home extends React.Component{
 
     render(){
 
-        return <h1>Soy Home</h1>
+        return(
+
+            <Fragment>
+                <CoverPage />
+            </Fragment>
+        )
 
     }
 

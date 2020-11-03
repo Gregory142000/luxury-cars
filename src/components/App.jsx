@@ -5,18 +5,23 @@ import Home from "../pages/Home"
 import Gallery from "../pages/Gallery"
 import Contact from "../pages/Contact"
 import Team from "../pages/Team"
+import Layout from "./Layout"
 
 function App(){
 
     return(
 
         <BrowserRouter>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/gallery" component={Gallery} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact path="/Team" component={Team} /> 
-            </Switch>
+            <Layout>
+
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/gallery" component={Gallery} />
+                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/Team" component={Team} /> 
+                </Switch>
+            
+            </Layout>
         </BrowserRouter>
     )
 
