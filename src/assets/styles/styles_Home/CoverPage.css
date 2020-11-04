@@ -4,15 +4,32 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.Cover-Page p{
+.Cover-Page-p{
  
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 50%;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 3.3rem;
     font-weight: 900;
+    z-index: 50;
+    position: absolute;
+    border: #fff solid 3px;
+    opacity: 1;
+    padding: 10px;
+    transition: opacity .5s linear;
+
+}
+.delete{
+
+    opacity: 0;
 
 }
