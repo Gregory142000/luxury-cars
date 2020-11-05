@@ -3,11 +3,19 @@
     width: 100%;
     height: 10vh;
     background-color: rgba(0, 0, 0, 0.7);
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     border-bottom: solid #fff 3px;
+    transform: translate(0, -100%);
+    transition: transform 0.5s ease;
+    z-index: 999;
+
+}
+.Navbar-active{
+
+    transform: translate(0, 0);
 
 }
 .Navbar ul{
