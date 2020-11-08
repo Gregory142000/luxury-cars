@@ -1,0 +1,40 @@
+.ContactSection{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #353030;
+    display: flex;
+
+}
+.Box-Contact-1{
+
+    width: 50%;
+
+}
+.Box-Contact-2{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Image-Contact{
+
+    width: 100%;
+    height: 100%;
+    border-right: solid #fff 3px ;
+
+}.Contact-Text{
+
+    color: #fff;
+    font-size: 3.3rem;
+    text-align: center;
+
+}
+.Button-Contact{
+
+    width: 30%;
+    margin-top: 15vh;
+}

@@ -20,8 +20,34 @@ class Navbar extends React.Component{
 
     }
 
-    // Dentro del componentDidMount se agrego un setTimeout para cambiar la clase del Navbar transcurrido cierto tiempo. 
-    componentDidMount(){
+    moveNavbar(){
+
+        window.addEventListener("scroll", () => {
+
+            if(window.scrollY !== 0){
+    
+                this.setState({
+    
+                    NavClassName: "Navbar Navbar-active Move-Navbar"
+    
+                })
+    
+            } else{
+    
+                this.setState({
+    
+                    NavClassName: "Navbar Navbar-active"
+    
+                })
+    
+            }
+
+        })
+
+    }
+
+
+    classSwitchTime(){
 
         this.classSwitch = setTimeout(() => {
 
@@ -33,6 +59,14 @@ class Navbar extends React.Component{
 
         }, 3000)
 
+    }
+
+    // Dentro del componentDidMount se agrego un setTimeout para cambiar la clase del Navbar transcurrido cierto tiempo. 
+    componentDidMount(){
+
+        this.moveNavbar()
+        this.classSwitchTime()
+        
     }
 
     componentWillUnmount(){
@@ -56,10 +90,10 @@ class Navbar extends React.Component{
                             <Link to="/gallery" className="link" >Gallery</Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="link" >Contact</Link>
+                            <Link to="/team" className="link" >Team</Link>
                         </li>
                         <li>
-                            <Link to="/team" className="link" >Team</Link>
+                            <Link to="/contact" className="link" >Contact</Link>
                         </li>
                     </ul>
                 </nav>

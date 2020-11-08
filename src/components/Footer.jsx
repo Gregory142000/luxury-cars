@@ -9,15 +9,16 @@ function Footer(){
 
         <React.Fragment>
             <footer className="Footer">
-                <div className="socials-icons"> 
-                    <Link to="#" target="_blank" ><img src="../assets/images/facebook.png" alt="Facebook Icon" className="icon"/></Link>
-                    <Link to="#" target="_blank" ><img src="../assets/images/twitter.png" alt="Twitter Icon" className="icon"/></Link>
-                    <Link to="#" target="_blank" ><img src="../assets/images/instagram.png" alt="Instagram Icon" className="icon"/></Link>
+                <div className="info-footer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit explicabo voluptatum sint est eum, ex ut perferendis odio facilis?</p>
+                    <p>All rights reserved. 2020</p>
+                    <p>Website create by <strong>Gregory Vicent</strong></p>
                 </div>
                 <hr/>
-                <div className="info-footer">
-                    <p>All rights reserved. 2020</p>
-                    <p>Website create by Gregory Vicent</p>
+                <div className="socials-icons"> 
+                    <Link to="#" target="_blank" ><i class="fab fa-instagram"></i></Link>
+                    <Link to="#" target="_blank" ><i class="fab fa-twitter"></i></Link>
+                    <Link to="#" target="_blank" ><i class="fab fa-telegram"></i></Link>
                 </div>
             </footer>
         </React.Fragment>

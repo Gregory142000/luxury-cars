@@ -54,6 +54,25 @@
     transition: opacity 1s linear;
 
 }
+.Cover-Page-h1{
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    z-index: 50;
+    position: absolute;
+    border: #fff solid 3px;
+    opacity: 1;
+    padding: 10px;
+    transition: opacity .5s linear;
+
+}
 .Cover-Page-p{
  
     color: #fff;

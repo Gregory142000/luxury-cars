@@ -13,7 +13,7 @@ class CoverPage extends React.Component{
 
         this.state = {
 
-            p1Class: "Cover-Page-p",
+            h1Class: "Cover-Page-h1",
             p2Class: "Cover-Page-p delete",
             p2TextOptions: [`Somos más que automóviles de lujo, Somos una pasión`, "Somos Velocidad", "Somos Comodidad", "Somos Rebeldía", "Somos Clase"],
             carsClass: ["Cover-Page backgroundUrl-1","Cover-Page backgroundUrl-2", "Cover-Page backgroundUrl-3", "Cover-Page backgroundUrl-4", "Cover-Page backgroundUrl-5"],
@@ -53,8 +53,6 @@ class CoverPage extends React.Component{
 
                 this.count++
 
-                console.log(this.count)
-
             }, 6000)
 
     }
@@ -70,7 +68,7 @@ class CoverPage extends React.Component{
 
                 this.setState({
 
-                    p1Class: "Cover-Page-p delete"
+                    h1Class: "Cover-Page-h1 delete"
 
                 })
 
@@ -113,7 +111,7 @@ class CoverPage extends React.Component{
         return(
 
             <div className={this.state.className}>
-                <p id="message-header-1" className={this.state.p1Class}>¿Quienes Sómos?</p>
+                <h1 id="message-header-1" className={this.state.h1Class}>LUXURY CARS</h1>
                 <p id="message-header-2" className={this.state.p2Class}>{this.state.p2Text}</p>
             </div>
 
