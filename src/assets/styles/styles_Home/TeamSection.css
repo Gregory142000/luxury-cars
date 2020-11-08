@@ -32,6 +32,13 @@
     text-align: center;
     width: 60%;
     margin: 5vh 7vw 0 0;
+    transition: all 1.5s linear;
+    opacity: 1;
+
+}
+.remove-text{
+
+    opacity: 0;
 
 }
 .Button-Team{

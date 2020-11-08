@@ -24,9 +24,16 @@
 
     width: 100%;
     height: 100%;
-    border-right: solid #fff 3px ;
+    border-right: solid #fff 3px;
+    transition: all .8s linear;
 
-}.Contact-Text{
+}
+.remove-img{
+
+    transform: translate(-100%, 0);
+    
+}
+.Contact-Text{
 
     color: #fff;
     font-size: 3.3rem;
