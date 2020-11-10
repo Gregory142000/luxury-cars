@@ -22,3 +22,14 @@
     border: solid #fff 3px;
 
 }
+
+@media (max-width: 575px){
+
+    .Button{
+
+        width: 50%;
+        font-size: 1.5rem;
+
+    }
+
+}

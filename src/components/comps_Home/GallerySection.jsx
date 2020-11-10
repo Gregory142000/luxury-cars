@@ -68,8 +68,8 @@ class GallerySection extends React.Component{
                 </div>
                 <div className="section-gallery-box-2">
                     <img className={this.state.polygon2} src={Polygon_2} alt="Muestra de auto 2"/>
-                    <Button className={"Button Button-Gallery"} href={"/gallery"} text={"Gallery"}/>
                 </div>           
+                <Button className={"Button Button-Gallery"} href={"/gallery"} text={"Gallery"}/>
             </section>
 
         )

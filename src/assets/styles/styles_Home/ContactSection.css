@@ -45,3 +45,42 @@
     width: 30%;
     margin-top: 15vh;
 }
+
+@media (max-width: 575px){
+
+    .Button-Contact{
+        width: 60%;
+        margin-top: 45vh;
+    }
+
+    .ContactSection{
+        flex-direction: column;
+    }
+
+    .Box-Contact-1{
+        width: 100%;
+    }
+
+    .Box-Contact-2{
+        margin-left: 5px;
+        width: 95%;
+        position: absolute;
+        margin-top: 10vh;
+        height: 80vh;
+    }
+
+    .Image-Contact{
+        height: 100vh;
+    }
+
+    .Contact-Text{
+        background-color: rgba(0,0,0,.5);
+        border: solid #fff 1px;
+        font-size: 2rem;
+        font-weight: 500;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+    }
+
+}

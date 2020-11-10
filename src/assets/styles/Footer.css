@@ -53,3 +53,13 @@ strong{
     color: #fff;
 
 }
+
+@media (max-width: 575px){
+
+    .Footer{
+
+        display: none;
+        
+    }
+
+}

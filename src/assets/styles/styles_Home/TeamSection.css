@@ -47,3 +47,35 @@
     margin-left: 20%;
     
 }
+
+@media (max-width: 575px){
+
+    .TeamSection{
+        background-size: contain;
+    }
+
+    .Team-Content{
+        align-items: center;
+    }
+
+    .Team-text{
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 5vh 0 0 0 ;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin-top: 15vh;
+        background-color: rgba(0, 0, 0, .5);
+        border: solid #fff 1px;
+        height: 25vh;
+    }
+
+    .Button-Team{
+        margin: auto;
+        width: 60%;
+        margin-top: 40vh;
+    }
+
+}
