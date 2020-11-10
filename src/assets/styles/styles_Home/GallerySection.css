@@ -57,9 +57,10 @@
 
 }
 .Button-Gallery{
-
-    width: 40%;
-    
+    margin: 75vh;
+    margin-left: 60vw;
+    width: 15%;
+    position: absolute;
 }
 
 @media (max-width: 575px){
@@ -85,6 +86,7 @@
 
     .Button-Gallery{
         width: 60%;
+        margin: 0px;
         position: absolute;
         margin-top: 60vh;
     }
