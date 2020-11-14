@@ -98,6 +98,36 @@
 
 }
 
+@media (max-width: 991px){
+
+    .Cover-Page{
+        height: 70vh;
+    }
+
+    .Cover-Page-h1{
+        font-size: 3.8rem;
+    }
+
+    .Cover-Page-p{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .Cover-Page-h1{
+        width: 70%;
+        font-size: 3.5rem;
+    }
+
+    .Cover-Page-p{
+        font-size: 2.5rem;
+        width: 70%;
+    }
+
+}
+
 @media (max-width: 575px){
 
     .Cover-Page{

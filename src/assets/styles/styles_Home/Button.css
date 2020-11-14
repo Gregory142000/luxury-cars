@@ -23,6 +23,22 @@
 
 }
 
+@media (max-width: 991px){
+
+    .Button{
+        font-size: 1.8rem;
+    }
+
+}
+
+/* @media (max-width: 767px){
+
+    .Button{
+        
+    }
+
+} */
+
 @media (max-width: 575px){
 
     .Button{
@@ -32,10 +48,3 @@
 
 }
 
-@media (max-width: 767px){
-
-    .Button{
-        
-    }
-
-}

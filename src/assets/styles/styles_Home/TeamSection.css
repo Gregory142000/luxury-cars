@@ -48,6 +48,45 @@
     
 }
 
+@media (max-width: 991px){
+
+    .Team-text{
+        font-size: 3rem
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .TeamSection{
+        background-size: cover;
+    }
+
+    .Team-Content{
+        align-items: center;
+    }
+
+    .Team-text{
+        font-size: 2.8rem;
+        font-weight: 500;
+        margin: 5vh 0 0 0 ;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin-top: 20vh;
+        background-color: rgba(0, 0, 0, .5);
+        border: solid #fff 2px;
+    }
+
+    .Button-Team{
+        margin: auto;
+        width: 60%;
+        margin-top: 20vh;
+    }
+
+}
+
 @media (max-width: 575px){
 
     .TeamSection{
@@ -66,16 +105,16 @@
         align-items: center;
         width: 90%;
         height: auto;
+        padding: 15px;
         margin-top: 15vh;
-        background-color: rgba(0, 0, 0, .5);
-        border: solid #fff 1px;
-        height: 25vh;
+        border: solid 1px #fff;
     }
 
     .Button-Team{
         margin: auto;
         width: 60%;
-        margin-top: 40vh;
+        margin-top: 20vh;
     }
 
 }
+

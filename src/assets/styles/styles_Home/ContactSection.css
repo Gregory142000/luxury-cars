@@ -46,13 +46,36 @@
 
     width: 30%;
     margin-top: 15vh;
+    height: 10vh;
+}
+
+@media (max-width: 991px){
+
+    .Contact-Text{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .Contact-Text{
+        font-size: 2.8rem;
+    }
+
+    .Button-Contact{
+        width: 90%;
+        margin-top: 15vh;
+        height: 10vh;
+    }
+
 }
 
 @media (max-width: 575px){
 
     .Button-Contact{
         width: 60%;
-        margin-top: 45vh;
+        margin-top: 30vh;
     }
 
     .ContactSection{
@@ -87,3 +110,4 @@
     }
 
 }
+
