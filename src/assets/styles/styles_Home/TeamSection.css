@@ -32,7 +32,7 @@
     text-align: center;
     width: 60%;
     margin: 5vh 7vw 0 0;
-    transition: all 1.5s linear;
+    transition: all 1s linear;
     opacity: 1;
 
 }
@@ -93,27 +93,11 @@
         background-size: contain;
     }
 
-    .Team-Content{
-        align-items: center;
-    }
-
     .Team-text{
         font-size: 2rem;
-        font-weight: 500;
-        margin: 5vh 0 0 0 ;
-        display: flex;
-        align-items: center;
-        width: 90%;
-        height: auto;
         padding: 15px;
         margin-top: 15vh;
         border: solid 1px #fff;
-    }
-
-    .Button-Team{
-        margin: auto;
-        width: 60%;
-        margin-top: 20vh;
     }
 
 }

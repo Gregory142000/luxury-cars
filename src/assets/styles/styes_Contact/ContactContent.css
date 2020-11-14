@@ -1,0 +1,14 @@
+.Contact-Content{
+    width: 100%;
+    height: auto;
+    background-color: #353030;
+    margin: 0px;
+}
+
+.Contact-Text{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 5%;
+    text-align: start;
+}

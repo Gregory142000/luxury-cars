@@ -1,0 +1,18 @@
+.Cover-Page-Section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact{
+    background: url("../images/ImageContact.png");
+    background-size: cover;
+}
+
+.Contact-Title{
+    font-weight: 100;
+    color: #fff;
+    font-size: 5rem;
+}
