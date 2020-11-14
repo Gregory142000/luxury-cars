@@ -7,7 +7,7 @@
 }
 
 .Contact{
-    background: url("../images/ImageContact.png");
+    background: url("../images/ImageContact\ \(1\).png");
     background-size: cover;
 }
 
@@ -15,4 +15,28 @@
     font-weight: 100;
     color: #fff;
     font-size: 5rem;
+}
+
+@media (max-width: 991px){
+
+    .Cover-Page-Section{
+        height: 80vh;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .Cover-Page-Section{
+        height: 60vh;
+    }
+
+}
+
+@media (max-width: 575px){
+
+    .Cover-Page-Section{
+        height: 50vh;
+    }
+
 }

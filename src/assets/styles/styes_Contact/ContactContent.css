@@ -5,10 +5,38 @@
     margin: 0px;
 }
 
-.Contact-Text{
+.Contact-Content-Text{
     color: #fff;
     font-size: 2rem;
     margin: 0px;
+    margin-top: -1vh;
     padding: 5%;
     text-align: start;
+}
+
+@media (max-width: 991px){
+
+    .Contact-Content-Text{
+        font-size: 1.8rem;
+        margin-top: -10vh;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .Contact-Content-Text{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 575px){
+
+    .Contact-Content-Text{
+        font-size: 1.3rem;
+        margin-top: -1vh;
+    }
+
 }
