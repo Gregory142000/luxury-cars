@@ -26,12 +26,14 @@
     height: 100%;
     border-right: solid #fff 3px;
     transition: all .8s linear;
+    opacity: 1;
 
 }
 .remove-img{
 
     transform: translate(-100%, 0);
-    
+    opacity: 0;
+
 }
 .Contact-Text{
 
