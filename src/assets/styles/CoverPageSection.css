@@ -11,6 +11,11 @@
     background-size: cover;
 }
 
+.Team{
+    background: url("../images/backgroundTeam.png");
+    background-size: cover;
+}
+
 .Contact-Title{
     font-weight: 100;
     color: #fff;

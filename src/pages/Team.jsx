@@ -1,12 +1,18 @@
 import React from "react"
 
-class Team extends React.Component{
+import CoverPageSection from "../components/CoverPageSection"
+import TeamContent from "../components/comps_Team/TeamContent"
 
-    render(){
+function Team(props){
 
-        return <h1>Soy Team</h1>
+    return(
 
-    }
+        <React.Fragment>
+            <CoverPageSection text="Team" className="Cover-Page-Section Team" />
+            <TeamContent />
+        </React.Fragment>
+
+    )
 
 }
 

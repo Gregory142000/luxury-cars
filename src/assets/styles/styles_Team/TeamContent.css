@@ -1,0 +1,17 @@
+.Team-Section{
+    background-color: #353030;
+    width: 100%;
+    height: auto;
+    margin-top: -10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 575px){
+
+    .Team-Section{
+        margin-top: -5vh;
+    }
+    
+}

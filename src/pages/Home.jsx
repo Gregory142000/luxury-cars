@@ -8,23 +8,20 @@ import NavButton from "../components/NavButton"
 
 import "../assets/styles/styles_Home/Home.css"
 
-class Home extends React.Component{
+function Home(props){
 
-    render(){
 
-        return(
+    return(
 
-            <Fragment>
-                <NavButton />
-                <CoverPage />
-                <GallerySection />
-                <TeamSection />
-                <ContactSection />
-            </Fragment>
+        <Fragment>
+            <NavButton />
+            <CoverPage />
+            <GallerySection />
+            <TeamSection />
+            <ContactSection />
+        </Fragment>
             
         )
-
-    }
 
 }
 

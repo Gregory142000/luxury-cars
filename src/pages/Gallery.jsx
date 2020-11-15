@@ -1,12 +1,8 @@
 import React from "react"
 
-class Gallery extends React.Component{
+function Gallery(props){
 
-    render(){
-
-        return <h1>Soy Gallery</h1>
-
-    }
+    return <h1>Soy Gallery</h1>
 
 }
 

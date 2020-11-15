@@ -1,0 +1,111 @@
+.Employee-Card{
+    border: solid 3px #fff;
+    background-color: #353030;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    margin: 15px;
+    margin-bottom: 20vh;
+    align-items: center;
+}
+
+.Image-Employee{
+    width: 15vw;
+    margin-top: -15vh;
+    border-radius: 1000px;
+    z-index: 10;
+}
+
+.Info-Employee{
+    background-color: #AE3636;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: -10vh;
+    margin-bottom: 2.5vh;
+}
+
+.Name-Employee{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 4vh;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.Description-Employee{
+    color: #fff;
+    text-align: center;
+    margin: 4vh 2vw 0 2vw;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1306px){
+
+    .Image-Employee{
+        width: 20vw;
+    }
+
+    .Info-Employee{
+        margin-top: -10vh;
+    }
+}
+
+@media (max-width: 991px){
+
+    .Image-Employee{
+        width: 25vw;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .Image-Employee{
+        width: 35vw;
+    }
+
+    .Name-Employee{
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 575px){
+
+    .Employee-Card{
+        width: 280px;
+        height: 50vh;
+    }
+
+    .Image-Employee{
+        margin-top: -12vh;
+    }
+
+    .Info-Employee{
+        margin-top: -5vh;
+    }
+
+    .Name-Employee{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 380px){
+
+    .Employee-Card{
+        height: 55vh;
+    }
+
+    .Image-Employee{
+        width: 50vw;
+        margin-top: -10vh;
+    }
+}

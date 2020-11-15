@@ -18,7 +18,7 @@ function App(){
                     <Route exact path="/" component={Home} />
                     <Route exact path="/gallery" component={Gallery} />
                     <Route exact path="/contact" component={Contact} />
-                    <Route exact path="/Team" component={Team} /> 
+                    <Route exact path="/team" component={Team} /> 
                 </Switch>
             
             </Layout>
