@@ -13,6 +13,7 @@ function Contact(props){
             <CoverPageSection className="Cover-Page-Section Contact" text="Contact"/>
             <ContactContent />
         </React.Fragment>
+
     )
 
 }

@@ -13,10 +13,16 @@ class NavButton extends React.Component{
 
     }
 
-    activeLink(){
+    removeClass(){
 
         document.querySelector(".screenNav").classList.remove("screenNav-active")
         document.querySelector(".my-hamburger").classList.remove("is-active")
+
+    }
+
+    componentWillUnmount(){
+
+        this.removeClass()
 
     }
 
@@ -32,10 +38,10 @@ class NavButton extends React.Component{
                 </button>
                 <div className="screenNav">
                     <ul className="list-NavButton">
-                        <li><Link onClick={this.activeLink} className="itemNavButton" to="/">Home</Link></li>
-                        <li><Link onClick={this.activeLink} className="itemNavButton" to="/gallery">Gallery</Link></li>
-                        <li><Link onClick={this.activeLink} className="itemNavButton" to="/team">Team</Link></li>
-                        <li><Link onClick={this.activeLink} className="itemNavButton" to="/contact">Contact</Link></li>
+                        <li><Link onClick={this.removeClass} className="itemNavButton" to="/">Home</Link></li>
+                        <li><Link onClick={this.removeClass} className="itemNavButton" to="/gallery">Gallery</Link></li>
+                        <li><Link onClick={this.removeClass} className="itemNavButton" to="/team">Team</Link></li>
+                        <li><Link onClick={this.removeClass} className="itemNavButton" to="/contact">Contact</Link></li>
                     </ul>
                 </div>
             </React.Fragment>

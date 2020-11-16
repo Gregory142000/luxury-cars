@@ -16,6 +16,11 @@
     background-size: cover;
 }
 
+.Gallery{
+    background: url("../images/ImageGallery.png");
+    background-size: cover;
+}
+
 .Contact-Title{
     font-weight: 100;
     color: #fff;
