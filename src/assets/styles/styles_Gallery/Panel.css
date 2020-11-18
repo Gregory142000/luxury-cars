@@ -1,33 +1,73 @@
-.Panel{
-    background-color: rgba( 0, 0, 0, .5);
+.Panel {
+    background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
     height: auto;
     padding: 2vw;
     margin: 0 auto;
 }
 
-.Panel-row{
+.Panel-row {
     display: flex;
     justify-content: space-around;
 }
 
-.Panel-item{
-    background-color: #AE3636;
+.Panel-item {
+    background-color: #ae3636;
     height: 10vh;
     width: 30%;
     display: flex;
     align-items: center;
 }
 
-.middle{
+.middle {
     margin: 1.5vh 0;
 }
 
-input{
+input {
     margin: 1vw;
     margin-left: 2.5vw;
 }
 
-label{
+label {
     text-align: center;
+}
+
+@media (max-width: 991px) {
+    .Panel-item {
+        flex-direction: column;
+    }
+
+    input {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Panel-row {
+        flex-direction: column;
+    }
+
+    .Panel-item {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .middle {
+        margin: 0px;
+    }
+
+    input {
+        margin: 0 2vw;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    label {
+        font-size: 1rem;
+    }
 }

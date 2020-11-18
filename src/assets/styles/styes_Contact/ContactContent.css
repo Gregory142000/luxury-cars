@@ -5,6 +5,21 @@
     margin: 0px;
 }
 
+.Contact-Subtitle{
+    font-size: 5rem;
+    background-color: #AE3636;
+    text-align: center;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 3px #fff solid;
+    color: #fff;
+    width: 90%;
+}
+
 .Contact-Content-Text{
     color: #fff;
     font-size: 2rem;
@@ -14,7 +29,67 @@
     text-align: start;
 }
 
+.Contact-Box-data{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.Contact-box{
+    background-color: #AE3636;
+    width: 40%;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    height: 40vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Contact-Data{
+    font-size: 1.7rem;
+    margin: 2vh 0 2vh 4vw;
+}
+
+.Numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Numbers p{
+    width: 80%;
+    font-size: 1.7rem;
+}
+
+.Contact-Numbers li{
+    font-size: 1.7rem;
+    margin: 3vh 0 3vh 6vw;
+}
+
+@media (max-width: 1230px){
+    .Contact-Subtitle{
+        height: 30vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    .Contact-Box-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contact-box{
+        width: 60%;
+    }
+}
+
 @media (max-width: 991px){
+    .Contact-Subtitle{
+        margin-bottom: 10vw;
+        font-size: 4rem;
+    }
 
     .Contact-Content-Text{
         font-size: 1.8rem;
@@ -22,6 +97,17 @@
         text-align: center;
     }
 
+    .Contact-Data{
+        font-size: 1.5rem;
+    }
+
+    .Numbers p{
+        font-size: 1.5rem;
+    }
+
+    .Contact-Numbers li{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 767px){
@@ -33,10 +119,32 @@
 }
 
 @media (max-width: 575px){
+    .Contact-Subtitle{
+        font-size: 3rem;
+    }
+
+    .Contact-Box-data{
+        margin-top: 4vh;
+    }
+
+    .Contact-box{
+        width: 90%;
+    }
 
     .Contact-Content-Text{
         font-size: 1.3rem;
         margin-top: -1vh;
     }
 
+    .Contact-Data{
+        font-size: 1.3rem;
+    }
+
+    .Numbers p{
+        font-size: 1.3rem;
+    }
+    
+    .Contact-Numbers li{
+        font-size: 1.3rem;
+    }
 }

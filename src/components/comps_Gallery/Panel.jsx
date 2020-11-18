@@ -29,7 +29,7 @@ class Panel extends React.Component {
     }
 
     render() {
-        return <CheckBoxes onChangeSearchCars={this.selectCars} />;
+        return <CheckBoxes onChangeSearchCars={this.selectCars} />
     }
 }
 

@@ -10,6 +10,7 @@ class Navbar extends React.Component {
     constructor(props) {
         super(props);
 
+        this.scrollUp = this.scrollUp.bind(this);
         this.state = {
             NavClassName: "Navbar",
         };

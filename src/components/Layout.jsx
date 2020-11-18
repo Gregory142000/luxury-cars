@@ -1,20 +1,16 @@
-import React from "react"
+import React from "react";
 
-import Navbar from "./Navbar"
-import Footer from "./Footer"
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Layout = (props) => {
-
-    return(
-
+    return (
         <React.Fragment>
             <Navbar />
-                {props.children}
+            {props.children}
             <Footer />
         </React.Fragment>
+    );
+};
 
-    )
-
-}
-
-export default Layout
+export default Layout;
