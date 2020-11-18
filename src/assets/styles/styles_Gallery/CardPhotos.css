@@ -1,0 +1,30 @@
+.CardPhotos{
+    width: 30%;
+    margin: 1vw;
+    opacity: 0;
+    order: 2;
+}
+
+.CardPhotos-img{
+    width: 100%;
+    height: 40vh;
+}
+
+.CardPhotos-Text{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0px; 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    transition: opacity 2s linear;
+    opacity: 1;
+    order: 1;
+}

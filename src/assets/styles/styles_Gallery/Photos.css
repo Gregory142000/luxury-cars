@@ -1,3 +1,8 @@
-h1{
-    color: #fff;
+.Photos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
