@@ -9,7 +9,7 @@ import Layout from "./Layout"
 
 function App(){
 
-    if (window.location.href.match("luxury-cars")) window.location.href = "/";
+    // if (window.location.href.match("luxury-cars")) window.location.href = "/";
 
     return(
 
