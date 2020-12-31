@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/luxury-cars/static/css/main.83bebc8c.chunk.css",
-    "main.js": "/luxury-cars/static/js/main.45523f28.chunk.js",
-    "main.js.map": "/luxury-cars/static/js/main.45523f28.chunk.js.map",
+    "main.js": "/luxury-cars/static/js/main.a9660abe.chunk.js",
+    "main.js.map": "/luxury-cars/static/js/main.a9660abe.chunk.js.map",
     "runtime-main.js": "/luxury-cars/static/js/runtime-main.e2dd780b.js",
     "runtime-main.js.map": "/luxury-cars/static/js/runtime-main.e2dd780b.js.map",
     "static/js/2.2a7a1139.chunk.js": "/luxury-cars/static/js/2.2a7a1139.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.e2dd780b.js",
     "static/js/2.2a7a1139.chunk.js",
     "static/css/main.83bebc8c.chunk.css",
-    "static/js/main.45523f28.chunk.js"
+    "static/js/main.a9660abe.chunk.js"
   ]
 }
