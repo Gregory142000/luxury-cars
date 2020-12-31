@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { HashRouter, Switch, Route } from "react-router-dom"
 
 import Home from "../pages/Home"
 import Gallery from "../pages/Gallery"
@@ -13,7 +13,7 @@ function App(){
 
     return(
 
-        <BrowserRouter>
+        <HashRouter>
             <Layout>
 
                 <Switch>
@@ -24,7 +24,7 @@ function App(){
                 </Switch>
             
             </Layout>
-        </BrowserRouter>
+        </HashRouter>
     )
 
 }
