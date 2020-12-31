@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/luxury-cars/static/css/main.83bebc8c.chunk.css",
-    "main.js": "/luxury-cars/static/js/main.c440dc56.chunk.js",
-    "main.js.map": "/luxury-cars/static/js/main.c440dc56.chunk.js.map",
+    "main.js": "/luxury-cars/static/js/main.45d04c25.chunk.js",
+    "main.js.map": "/luxury-cars/static/js/main.45d04c25.chunk.js.map",
     "runtime-main.js": "/luxury-cars/static/js/runtime-main.e2dd780b.js",
     "runtime-main.js.map": "/luxury-cars/static/js/runtime-main.e2dd780b.js.map",
-    "static/js/2.2a7a1139.chunk.js": "/luxury-cars/static/js/2.2a7a1139.chunk.js",
-    "static/js/2.2a7a1139.chunk.js.map": "/luxury-cars/static/js/2.2a7a1139.chunk.js.map",
+    "static/js/2.dfafe47b.chunk.js": "/luxury-cars/static/js/2.dfafe47b.chunk.js",
+    "static/js/2.dfafe47b.chunk.js.map": "/luxury-cars/static/js/2.dfafe47b.chunk.js.map",
     "index.html": "/luxury-cars/index.html",
     "static/css/main.83bebc8c.chunk.css.map": "/luxury-cars/static/css/main.83bebc8c.chunk.css.map",
-    "static/js/2.2a7a1139.chunk.js.LICENSE.txt": "/luxury-cars/static/js/2.2a7a1139.chunk.js.LICENSE.txt",
+    "static/js/2.dfafe47b.chunk.js.LICENSE.txt": "/luxury-cars/static/js/2.dfafe47b.chunk.js.LICENSE.txt",
     "static/media/CoverPageSection.css": "/luxury-cars/static/media/backgroundTeam.b8ac3c04.png",
     "static/media/Polygon-1.aa5bb96c.png": "/luxury-cars/static/media/Polygon-1.aa5bb96c.png",
     "static/media/Polygon-2.9157d483.png": "/luxury-cars/static/media/Polygon-2.9157d483.png",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e2dd780b.js",
-    "static/js/2.2a7a1139.chunk.js",
+    "static/js/2.dfafe47b.chunk.js",
     "static/css/main.83bebc8c.chunk.css",
-    "static/js/main.c440dc56.chunk.js"
+    "static/js/main.45d04c25.chunk.js"
   ]
 }
