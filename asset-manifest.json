@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/luxury-cars/static/css/main.83bebc8c.chunk.css",
+    "main.js": "/luxury-cars/static/js/main.45523f28.chunk.js",
+    "main.js.map": "/luxury-cars/static/js/main.45523f28.chunk.js.map",
+    "runtime-main.js": "/luxury-cars/static/js/runtime-main.e2dd780b.js",
+    "runtime-main.js.map": "/luxury-cars/static/js/runtime-main.e2dd780b.js.map",
+    "static/js/2.2a7a1139.chunk.js": "/luxury-cars/static/js/2.2a7a1139.chunk.js",
+    "static/js/2.2a7a1139.chunk.js.map": "/luxury-cars/static/js/2.2a7a1139.chunk.js.map",
+    "index.html": "/luxury-cars/index.html",
+    "static/css/main.83bebc8c.chunk.css.map": "/luxury-cars/static/css/main.83bebc8c.chunk.css.map",
+    "static/js/2.2a7a1139.chunk.js.LICENSE.txt": "/luxury-cars/static/js/2.2a7a1139.chunk.js.LICENSE.txt",
+    "static/media/CoverPageSection.css": "/luxury-cars/static/media/backgroundTeam.b8ac3c04.png",
+    "static/media/Polygon-1.aa5bb96c.png": "/luxury-cars/static/media/Polygon-1.aa5bb96c.png",
+    "static/media/Polygon-2.9157d483.png": "/luxury-cars/static/media/Polygon-2.9157d483.png",
+    "static/media/audi1.0587a5cb.jpg": "/luxury-cars/static/media/audi1.0587a5cb.jpg",
+    "static/media/bmw1.52e155d7.jpg": "/luxury-cars/static/media/bmw1.52e155d7.jpg",
+    "static/media/bugatti1.739d6365.jpg": "/luxury-cars/static/media/bugatti1.739d6365.jpg",
+    "static/media/ferrari1.7b4ccb57.webp": "/luxury-cars/static/media/ferrari1.7b4ccb57.webp",
+    "static/media/jaguar1.9ae17d28.jpg": "/luxury-cars/static/media/jaguar1.9ae17d28.jpg",
+    "static/media/lamborghini1.6fc66b8c.jpg": "/luxury-cars/static/media/lamborghini1.6fc66b8c.jpg",
+    "static/media/mustang1.df648d66.webp": "/luxury-cars/static/media/mustang1.df648d66.webp",
+    "static/media/person1.78ae33dc.jpeg": "/luxury-cars/static/media/person1.78ae33dc.jpeg",
+    "static/media/person2.a522b2e7.jpeg": "/luxury-cars/static/media/person2.a522b2e7.jpeg",
+    "static/media/person3.c14912c7.jpeg": "/luxury-cars/static/media/person3.c14912c7.jpeg",
+    "static/media/person4.98c9b9df.jpeg": "/luxury-cars/static/media/person4.98c9b9df.jpeg",
+    "static/media/person5.37eb3606.jpeg": "/luxury-cars/static/media/person5.37eb3606.jpeg",
+    "static/media/person6.866b4992.jpeg": "/luxury-cars/static/media/person6.866b4992.jpeg",
+    "static/media/CoverPage.css": "/luxury-cars/static/media/wallhaven-0jy56w.6fae6037.jpg",
+    "static/media/photo-1514316454349-750a7fd3da3a.3bef2e84.jfif": "/luxury-cars/static/media/photo-1514316454349-750a7fd3da3a.3bef2e84.jfif",
+    "static/media/porsche1.4398f06c.webp": "/luxury-cars/static/media/porsche1.4398f06c.webp",
+    "static/media/rolls-royce1.4214be75.jpg": "/luxury-cars/static/media/rolls-royce1.4214be75.jpg",
+    "static/media/TeamSection.css": "/luxury-cars/static/media/silhouette-confident-businesspeople_1098-1768.3800afed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2dd780b.js",
+    "static/js/2.2a7a1139.chunk.js",
+    "static/css/main.83bebc8c.chunk.css",
+    "static/js/main.45523f28.chunk.js"
+  ]
+}
