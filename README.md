@@ -4,13 +4,13 @@
 ## Sobre este proyecto
 Luxury Cars fue un proyecto personal que desarrolle para poner en practica mis habilidades con la librería 'React.Js' y la implementación del 'responsive web design' con la metodología mobile first, además de disfrutar el escribir algunas lineas de código en JavaScript para implementar algunas animaciones sencillas al principio del sitio web.
 
+Aquí pude poner en practica lo que aprendí en el curso de React.Js que imparte la plataforma de cursos online 'Platzi' desarrollando lo que es la simulación de una pagina de muestra de una agencia de automóviles de lujo que cuenta con una sección para conocer al equipo que trabaja dentro de la empresa, una sección para contactar a la compañía y una galería en donde se puede filtrar la búsqueda de carros según su marca a traves de un panel interactivo.
+
 ## Tecnologías Usadas
 - *HTML*
 - *CSS*
 - *JAVASCRIPT*
 - *REACT.JS*
-
-Aquí pude poner en practica lo que aprendí en el curso de React.Js que imparte la plataforma de cursos online 'Platzi' desarrollando lo que es la simulación de una pagina de muestra de una agencia de automóviles de lujo que cuenta con una sección para conocer al equipo que trabaja dentro de la empresa, una sección para contactar a la compañía y una galería en donde se puede filtrar la búsqueda de carros según su marca a traves de un panel interactivo.
 
 ## Responsive Design
 Para este proyecto aplique el 'responsive design', que claramente no puede faltar en ninguna aplicación o sitio web de nuestros días, pero en esta ocasión me decidí por probar por vez primera la metodología 'mobile first'. Personalmente debo admitir que me dejo un buen sabor de boca el trabajar primero enfocando el diseño a los dispositivos móviles para después ir agrandando el tamaño de la pantalla, y con esto, poder agregar más elementos gradualmente.
